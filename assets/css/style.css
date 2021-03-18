@@ -1,0 +1,74 @@
+:root {
+    --primary: rgb(245, 188, 102);
+    --secondary: white;
+    --text-color: rgb(75, 75, 75);
+    --header-color: orange;
+    --tag-fontsize: 30px;
+    --text-fontsize: 15px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}
+
+h1{
+    font-size: 200%;
+}
+
+h2 {
+    font-size: var(--tag-fontsize);
+}
+
+.overlay-header {
+    height: 400px;
+    width: auto;
+    background: black;
+    overflow: hidden;
+}
+
+.overlay-header img {
+    height: 400px;
+    width: auto;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.banner-text {
+    position: absolute;
+    top: 80%;
+    bottom: 20%;
+    margin-left: 15px;
+    color: white;
+    font-size: 150%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bio img {
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
