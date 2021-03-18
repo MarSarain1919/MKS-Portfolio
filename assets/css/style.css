@@ -72,3 +72,19 @@ nav ul {
     width: 250px;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.projects ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects img {
+    max-width: 30%;
+    padding: 10px;
+}
+
+/* things to do: create a hover effect for projects. work on projects layout. figure out how to wrap bio. fix banner to flex (add media queries) */
