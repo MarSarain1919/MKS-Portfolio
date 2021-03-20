@@ -45,8 +45,7 @@ h2 {
 }
 
 .banner-text {
-    position: absolute;
-    top: 80%;
+    position: relative;
     bottom: 20%;
     margin-left: 15px;
     color: white;
@@ -75,17 +74,20 @@ main {
     text-decoration: underline;
 }
 
-.bio img {
+.bio p img {
     position: relative;
     height: 250px;
     width: 250px;
-    vertical-align: auto;
     margin: 3%;
+    float: left;
 }
 
 .bio p {
-    text-align: middle;
+    text-align: center;
     position: relative;
+    float: right;
+    margin-left: auto;
+    font-size: 1.5em;
 }
 
 .projects {
@@ -102,11 +104,19 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .projects img {
-    max-width: 30%;
+    max-width: 40%;
     padding: 10px;
+    float: right;
+    margin-right: 20%;
+}
+
+.skates {
+    font-size: 1em;
+
 }
 
 .contact {
