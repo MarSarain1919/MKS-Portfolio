@@ -120,11 +120,15 @@ main {
     padding: 10px;
     float: right;
     margin-right: 20%;
+    justify-content: space-between;
+}
+
+.skates h3 {
+    font-size: 5em;
 }
 
 .skates {
-    font-size: 1em;
-
+    transform: translate(100px, 100px)
 }
 
 .contact {
