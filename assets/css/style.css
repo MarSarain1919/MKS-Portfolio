@@ -13,6 +13,10 @@
     --light-purple: rgb(245, 173, 245);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -130,7 +134,7 @@ main {
 .skates img {
     float: left;
     margin-left: 4%;
-    max-width: 60%;
+    max-width: 90%;
 }
 
 .skates img:hover {
@@ -325,8 +329,6 @@ footer div {
     font-size: 120%;
     margin: 5px;
 }
-/* things to do: create a hover effect for projects. work on projects layout. figure out how to wrap bio. fix banner to flex (add media queries) */
-
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
